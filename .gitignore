@@ -1,0 +1,18 @@
+# Bỏ qua các thư mục node_modules trong dự án chính (nếu có) và trong các thư mục con
+node_modules/
+
+# Bỏ qua thư mục node_modules trong frontend (fe)
+fe/node_modules/
+
+# Bỏ qua thư mục node_modules trong backend (be)
+be/node_modules/
+
+# Bỏ qua các file Python/ML lớn và tạm thời
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# Bỏ qua các file dữ liệu lớn/cache ML (quan trọng cho bạn)
+*.pkl
